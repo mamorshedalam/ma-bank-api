@@ -1,0 +1,47 @@
+*{
+     padding: 0;
+     margin: 0;
+     outline: none;
+     box-sizing: border-box;
+}
+body{
+     padding: 100px;
+}
+.submit-area{
+     background-color: white;
+     border-radius: 15px;
+     padding: 50px;
+     margin-top: 50px;
+     box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+     transition: linear 0.4s;
+     -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+     -ms-border-radius: 15px;
+     -o-border-radius: 15px;
+     -webkit-transition: linear 0.4s;
+     -moz-transition: linear 0.4s;
+     -ms-transition: linear 0.4s;
+     -o-transition: linear 0.4s;
+}
+#transaction-area{
+     display: none;
+}
+#transaction-area .deposit{
+     background-color: slateblue;
+}
+#transaction-area .withdraw{
+     background-color: lightsalmon;
+}
+#transaction-area .balance{
+     background-color: orange;
+}
+#transaction-area .status{
+     margin: 0 20px;
+     color: white;
+     padding: 20px;
+     border-radius: 15px;
+     -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+     -ms-border-radius: 15px;
+     -o-border-radius: 15px;
+}
